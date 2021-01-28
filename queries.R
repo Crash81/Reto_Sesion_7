@@ -15,5 +15,4 @@ Percent_spanish <-  Languages %>% filter(Language == "Spanish")
 
 Percent_spanish_df <- as.data.frame(Percent_spanish)
 
-Percent_spanish_df %>% ggplot(aes( x = CountryCode, y=Percentage, fill=IsOfficial)) + 
-  geom_col()
+Percent_spanish_df %>% ggplot(aes( x = CountryCode, y=Percentage, fill=IsOfficial)) + geom_col()
